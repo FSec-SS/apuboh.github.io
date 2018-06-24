@@ -167,7 +167,7 @@ hr {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat right bottom;
+	background: url(../img/intro-bg.jpg) no-repeat center bottom fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -214,9 +214,9 @@ hr {
 }
 
 header .intro-text {
-	padding-top: 250px;
-	padding-bottom: 200px;
-	padding-left: 100px;
+	padding-top: 21.5%;
+	padding-bottom: 18%;
+	padding-left: 8.5%;
 	font-family: Anurati-Regular;
 }
 
@@ -1211,6 +1211,7 @@ header .intro-text {
     font: normal normal 300 normal 16px / 25.6px Roboto, sans-serif;
     outline: rgb(78, 78, 78) none 0px;
 }
+
 #rules .rules_division_2 {
     bottom: 0px;
     box-sizing: border-box;
@@ -1995,6 +1996,10 @@ header .intro-text {
 	color: #cc0033;
 	text-align: left;
 }
+#location .location_map {
+	height: 450px;	
+}
+
 label {
 	font-size: 12px;
 	font-weight: 400;
@@ -2070,10 +2075,18 @@ label {
 	color: #fff;
 }
 
+@media screen and (max-width: 400px) {
+	#rules .rules_division_2 {
+		min-height: 100px;
+		width: 100%;
+		min-width: 100%;
+	}
+}
 
-@media (max-width: 1024px) {
-#about img {
-	float: left;
-	margin-bottom: 20px;
+@media screen and (max-width: 620px) {
+	#location .location_map {
+		height: 350px;	
+	}
 }
-}
+
+
