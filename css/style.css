@@ -167,7 +167,7 @@ hr {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center bottom fixed;
+	background: url(../img/intro-bg.jpg) no-repeat center bottom;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2089,4 +2089,9 @@ label {
 	}
 }
 
+@media screen and (max-width: 1020px) {
+	.container {
+	  margin-right: 10%;
+	}
+}
 
