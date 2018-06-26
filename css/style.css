@@ -167,7 +167,7 @@ hr {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center bottom;
+	background: url(../img/intro-bg.jpg) no-repeat center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1592,7 +1592,7 @@ header .intro-text {
 /* decoration2 Section */
 #decoration2 {
 	text-align: center;
-	background: url(../img/decoration2_main.jpg) no-repeat center bottom fixed;
+	background: url(../img/decoration2_main.jpg) no-repeat center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2009,7 +2009,7 @@ label {
 /* decoration1 Section */
 #decoration1 {
 	text-align: center;
-	background: url(../img/decoration1_main.png) no-repeat center bottom fixed;
+	background: url(../img/decoration1_main.png) no-repeat center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
