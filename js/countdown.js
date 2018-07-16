@@ -2,7 +2,7 @@
  * GLOBAL VARS
  * -------------------------- */
 // The date you want to count down to
-var targetDate = new Date("2018/07/31 09:00:00");
+var targetDate = new Date("2018/09/13 09:00:00");
 var currentDate = new Date();
 
 if (currentDate > targetDate){
